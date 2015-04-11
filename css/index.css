@@ -1,0 +1,60 @@
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.navbar-default.transparent {
+	background-color: transparent;
+}
+.slide1, .slide2, .slide3 {
+	min-height: 560px; /* Must have a height or min-height set due to use of background images */
+	background-size: cover;
+	background-position: center center;
+}
+.slide1 {
+	background-image: url(http://farm3.static.flickr.com/2462/3916572573_3e2ee770cd_o.jpg);
+}
+.slide2 {
+	background-image: url(http://shawneeparklodge.com/up/photo_gallery/Golf_02.jpg);
+}
+.slide3 {
+	background-image: url(http://www.visitmarshallcounty.org/travel-blog/wp-content/uploads/2012/07/Moonlight_Serenade_Ledbetter.jpg);
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+	-webkit-transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+	-ms-transition: opacity 1s linear;
+	-o-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+	opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/* Carousel Overlay */
+.carousel-overlay {
+	position: absolute;
+	bottom: 100px;
+	right: 0;
+	left: 0;
+}
+
+.carousel-overlay {
+	font: verdana;
+	font-size:  1.5em;
+	color:  white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+}
+.carousel-overlay h1 {
+    font-size: 3.5em;
+}
+
