@@ -13,13 +13,13 @@
 	background-position: center center;
 }
 .slide1 {
-	background-image: url(http://farm3.static.flickr.com/2462/3916572573_3e2ee770cd_o.jpg);
+	background-image: url(/assets/OSU.jpg);
 }
 .slide2 {
-	background-image: url(http://shawneeparklodge.com/up/photo_gallery/Golf_02.jpg);
+	background-image: url(/assets/Golf_02.jpg);
 }
 .slide3 {
-	background-image: url(http://www.visitmarshallcounty.org/travel-blog/wp-content/uploads/2012/07/Moonlight_Serenade_Ledbetter.jpg);
+	background-image: url(/assets/Moonlight_Serenade_Ledbetter.jpg);
 }
 /* Carousel Fade Effect */
 .carousel.carousel-fade .item {
