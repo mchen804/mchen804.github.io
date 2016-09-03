@@ -1,96 +1,52 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-	<script src="js/bootstrap.js"></script>
-    <title>Michael Chen</title>
-</head>
-<body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Michael Chen</a>
-	    </div>
-	 <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li class="active">
-                <a href="#" class="text-center">
-                    <span class="glyphicon glyphicon-home">
-                    </span> Home <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li>
-                <a class="text-center" href="professional.html">
-                    <span class="glyphicon glyphicon-console">
-                    </span> Professional Information
-                </a>
-            </li>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael Chen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-            <li>
-                <a class="text-center" href="Stream.html">
-                    <span class="glyphicon glyphicon-hd-video">
-                    </span> Twitch Stream
-                </a>
-            </li>
-            <li>
-                <a class="text-center" href="html5video.html">
-                    <span class="glyphicon glyphicon-hd-video">
-                    </span> HTML5 Video Player Test
-                </a>
-            </li>
-        </ul>
-	       <ul class="nav navbar-nav navbar-right">
-	        	<li>
-	        		<a type="button" class="btn btn-lg" href="mailto:chen.3221@osu.edu?Subject=Personal%20website">
-		        		<span class="glyphicon glyphicon-envelope">
-		        		</span> 
-	        			Contact Me
-	        		</a>
-	        	</li>
-	        </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-<div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-<!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <div class="slide1"></div>
-        </div>
-        <div class="item">
-            <div class="slide2"></div>
-        </div>
-        <div class="item">
-            <div class="slide3"></div>
-        </div>
-    </div><!-- .carousel-inner --> 
-    <div class="container carousel-overlay text-center">
-            <h1>Michael Chen</h1>
-	        <p>Welcome to the personal web page of Michael Chen
-				<br> A 4th year computer science and engineering student at The Ohio State University!
-				<br>Here you will find my resume, personal projects, and more information about me
-			</p>
-    </div>
-</div><!-- .carousel --> 
-<div class="jumbotron">
-	<div class="container">
-		<h1>About Me</h1>
-		<p>I am a young software developer looking to learn and work with cutting edge technologies.
-		<br>My main interests are in information security and application development. 
-		<br>In my free time I like to golf, play videogames, and work on web applications. 
-		</p>
-	</div>
-</div>
-</body>
+				<!-- Header -->
+					<header id="header">
+						<h1>Michael Chen</h1>
+						<p>Software Engineer &nbsp;&bull;&nbsp; Buckeye &nbsp;&bull;&nbsp; Still learning</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/michchen" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
+								<li><a href="main.html" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="https://github.com/mchen804" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.twitch.tv/mchen80" class="icon fa-twitch"><span class="label">Twitch</span></a></li>
+								<li><a href="http://steamcommunity.com/id/mikechen/" class="icon fa-steam"><span class="label">Steam</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Aerial: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
