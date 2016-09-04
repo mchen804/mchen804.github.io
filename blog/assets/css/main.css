@@ -2867,14 +2867,12 @@
 			text-transform: uppercase;
 			display: inline-block;
 		}
-
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
 			#header .logo .symbol {
-				margin: 0 0 1em 0;
 				width: 6.25em;
 			}
 
